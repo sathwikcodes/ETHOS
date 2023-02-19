@@ -25,9 +25,6 @@ dfx deploy --argument='("CryptoDunks #123", principal "qc7wy-zus5l-ujo56-fej5m-2
 http://localhost:8080/
 
 
-
-# OPTIONAL:
-
 # Creating NFT for Testing
 
 1. Mint an NFT on the command line to get NFT into mapOfNFTs:
