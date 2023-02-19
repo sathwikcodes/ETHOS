@@ -39,7 +39,7 @@ dfx canister call opend mint '(vec {137; 80; 78; 71; 13; 10; 26; 10; 0; 0; 0; 13
 2. List the item into mapOfListings:
 
 ```
-dfx canister call opend listItem '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", 10)'
+dfx canister call opend listItem '(principal "<your-canister-id>", 10)'
 ```
 
 3. Get OpenD canister ID:
@@ -51,16 +51,28 @@ dfx canister id opend
 4. Transfer NFT to OpenD:
 
 ```
-dfx canister call xifbj-tqaaa-aaaaa-aaauq-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
+dfx canister call <your-principal-id> transferOwnership '(principal "<your-canister-id>", true)'
 ```
+
+## To Track your Balance from the Token Server head over to my another repo(NTL) and follow the steps from there: 
 
 # Conneting to the Token Canister
 
 
 1. Copy over the token declarations folder
 
-2. Set the token canister id into the wflfh-4yaaa-aaaaa-aaata-cai
+2. Set the token canister id into the <token-canister-id>
 
 ```
-const dangPrincipal = Principal.fromText("wflfh-4yaaa-aaaaa-aaata-cai");
+const dangPrincipal = Principal.fromText("<token-canister-id>");
 ```
+
+ <p align="center" >
+ <img src="Screenshot (21).png" width="70%"> </p>
+ <p align="center" >
+ <img src="Screenshot (22).png" width="70%"> </p>
+ <p align="center" >
+ <img src="Screenshot (23).png" width="70%"> </p>
+ <p align="center" >
+ <img src="Screenshot (24).png" width="70%"> </p>
+
